@@ -5,12 +5,8 @@ import { Link, Routes, Route, BrowserRouter } from "react-router-dom";
 function Home() {
   return (
     <Box textAlign="center" fontSize="xl" p={5}>
-      <Text mb={4}>Welcome to the Home Page!</Text>
-      <HStack>
-        <Link to="/about">
-          <Button colorScheme="blue">Go to About Page</Button>
-        </Link>
-      </HStack>
+      <Text mb={4}>🚧 Coming Soon 🚧</Text>
+      <Text mb={5}>Work in progress. Stay tuned!</Text>
     </Box>
   );
 }
